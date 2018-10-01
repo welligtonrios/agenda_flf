@@ -30,7 +30,7 @@ public class ContatoService {
 	
 	 public Contato buscaContato(String nome) {
 		 for (Contato contato : listaContato) {
-			if (contato.getNome()==nome) {
+			if (contato.getNome().equals(nome) ) {
 				return contato ; 
 			}
 		}

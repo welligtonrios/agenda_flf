@@ -11,6 +11,7 @@ public class Contato {
  
 	public Contato() {
 		
+		
 	}
 	
 	    	public Contato(String nome, long tel) {
